@@ -15,7 +15,7 @@
 	- Xem được trạng thái đơn hàng (Chờ xác nhận, Chờ giao hàng, đã giao)
 	- Xem được lịch sử các order của mình
 	- Đánh giá đơn hàng sau khi hoàn thành
-- ~~~
+- /~~~ Tu bi continiu
 
 ####  Người bán
 - Yêu cầu tạo tài khoản người bán
@@ -29,4 +29,4 @@
 
 - Quản lí khách hàng
 - Quản lí người bán
-- ~~~ Sau
+- /~~~ Tu bi continiu
