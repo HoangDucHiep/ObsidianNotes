@@ -14,3 +14,8 @@ tags:
 	- Right Child = $2\times i + 2$![[Drawing 2024-10-12 11.59.44.excalidraw.svg]]
 ### Tạo heap từ một mảng
 [Code python](https://github.com/HoangDucHiep/Coursera---Data-Structures-and-Algorithms-Specialization/blob/main/Data_Structures/data_structure_implementations/priority_queue/python/priority_queue.py)
+
+### Ứng dụng
+[[Heap Sort]]
+[[Priority Queue 🤔]]
+...
