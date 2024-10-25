@@ -21,6 +21,5 @@ Scaffold-DbContext " <connection string> " Microsoft.EntityFrameworkCore.SqlServ
 - Chạy lệnh trong <mark style="background: #FFB8EBA6;">Package Manager Console</mark>
 
 
-Data Source=HOANGHIEP\SQLEXPRESS;Initial Catalog=QLGiaiBongDa;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False
 
-Scaffold-DbContext "Data Source=HOANGHIEP\SQLEXPRESS;Initial Catalog=QLGiaiBongDa;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "Data Source=HOANGHIEP;Initial Catalog=QLThuVien;User ID=sa;Password=hoanghiep;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

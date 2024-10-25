@@ -1,4 +1,4 @@
-## Product
+## <span style="color:rgb(133, 255, 135)">Product</span>
 
 - `ProductID` - PK
 - `VendorID` - FK
@@ -14,8 +14,8 @@
 - `CreatedAt` - NOT NULL
 - `UpdatedAt` - NOT NULL
 
-## Category
-
+## <span style="color:rgb(133, 255, 135)">Category<span style="color:rgb(133, 255, 135)">
+</span></span>
 - `CategoryID` - PK
 - `ParentCategory` - FK
 - `Name` - NOT NULL
@@ -25,7 +25,7 @@
 - `CreatedAt` - NOT NULL
 - `UpdatedAt` - NOT NULL
 
-## Vendor
+## <span style="color:rgb(133, 255, 135)">Vendor</span>
 
 - `VendorID` - PK
 - `Name` - NOT NULL
@@ -36,7 +36,7 @@
 - `CreatedAt` - NOT NULL
 - `UpdatedAt` - NOT NULL
 
-## ProductVariant
+## <span style="color:rgb(133, 255, 135)">ProductVariant</span>
 
 - `VariantID` - PK
 - `ProductID` - FK
@@ -45,7 +45,7 @@
 - `CreatedAt` - NOT NULL
 - `UpdatedAt` - NOT NULL
 
-## ProductVariantOption
+## <span style="color:rgb(133, 255, 135)">ProductVariantOption</span>
 
 - `OptionID` - PK
 - `VariantID` - FK
@@ -116,3 +116,69 @@
 ### Ví dụ về SKU
 - Product không có variant: `AT001` (Basic T-shirt)
 - Product có variant: `APL-DEN-S` (Black Polo Shirt size S)
+
+## User
+
+- `UserID` - PK
+- `Email` - NOT NULL UNIQUE
+- `Password` - NOT NULL
+- `Phone` - NULL
+- `Status` - NOT NULL
+- `CreatedAt` - NOT NULL
+- `UpdatedAt` - NOT NULL
+
+## UserRole
+
+- `RoleID` - PK
+- `Name` - NOT NULL (ADMIN, CUSTOMER, VENDOR)
+- `Description` - NULL
+- `CreatedAt` - NOT NULL
+- `UpdatedAt` - NOT NULL
+
+## UserRoleMapping
+
+- `UserID` - PK, FK
+- `RoleID` - PK, FK
+- `CreatedAt` - NOT NULL
+- `UpdatedAt` - NOT NULL
+
+## Customer (User profile khi là khách hàng)
+
+- `CustomerID` - PK
+- `UserID` - FK UNIQUE
+- `FirstName` - NOT NULL
+- `LastName` - NOT NULL
+- `Address` - NULL
+- `CreatedAt` - NOT NULL
+- `UpdatedAt` - NOT NULL
+
+## Vendor (User profile khi là người bán)
+
+- `VendorID` - PK
+- `UserID` - FK UNIQUE
+- `BusinessName` - NOT NULL
+- `BusinessAddress` - NOT NULL
+- `BusinessPhone` - NOT NULL
+- `TaxCode` - NULL
+- `Status` - NOT NULL (PENDING, ACTIVE, REJECTED, BANNED)
+- `CreatedAt` - NOT NULL
+- `UpdatedAt` - NOT NULL
+
+### Notes
+
+1. Khi user đăng ký:
+    - Tạo record trong `User`
+    - Tạo record trong `UserRoleMapping` với role CUSTOMER
+    - Tạo record trong `Customer`
+2. Khi user đăng ký làm người bán:
+    - Tạo record trong `Vendor` với status PENDING
+    - Admin duyệt -> update `Vendor.Status = ACTIVE`
+    - Tạo thêm record trong `UserRoleMapping` với role VENDOR
+3. Admin:
+    - Là record trong `User` được map với role ADMIN
+    - Có quyền cao nhất trong hệ thống
+    - Có thể quản lý tất cả các đối tượng khác
+4. Trong bảng `Order`:
+    - Đổi `CustomerID` FK reference tới bảng `Customer` thay vì `User`
+5. Trong bảng `ProductReview`:
+    - Đổi `CustomerID` FK reference tới bảng `Customer` thay vì `User`
