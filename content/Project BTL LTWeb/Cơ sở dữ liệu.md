@@ -20,7 +20,7 @@
 - `ParentCategory` - FK
 - `Name` - NOT NULL
 - `Slug` - NOT NULL
-- `Description` - NULL
+- `ImageUrl` - NULL
 - `Status` - NOT NULL
 - `CreatedAt` - NOT NULL
 - `UpdatedAt` - NOT NULL
