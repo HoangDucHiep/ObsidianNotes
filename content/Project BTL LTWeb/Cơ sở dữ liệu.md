@@ -17,10 +17,9 @@
 ## <span style="color:rgb(133, 255, 135)">Category<span style="color:rgb(133, 255, 135)">
 </span></span>
 - `CategoryID` - PK
-- `ParentCategory` - FK
 - `Name` - NOT NULL
 - `Slug` - NOT NULL
-- `ImageUrl` - NULL
+- `BannerImage` - NULL
 - `Status` - NOT NULL
 - `CreatedAt` - NOT NULL
 - `UpdatedAt` - NOT NULL
@@ -76,10 +75,11 @@
 - `CreatedAt` - NOT NULL
 - `UpdatedAt` - NOT NULL
 
-## ProductImage
+## <span style="color:rgb(133, 255, 135)">ProductImage</span>
 
 - `ImageID` - PK
 - `ProductID` - FK
+- VariantID - FK
 - `URL` - NOT NULL
 - `IsPrimary` - NOT NULL
 - `CreatedAt` - NOT NULL

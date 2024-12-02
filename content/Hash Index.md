@@ -1,4 +1,4 @@
-### Index là gì? 
+## Index là gì? 
 - **Index** lưu trữ một bản sao của một hoặc nhiều cột trong bảng theo cấu trúc, giúp tăng hiệu quả trong việc thực hiện các truy vấn thay vì phải scan từng record
 - Ví dụ: nếu bạn tạo chỉ mục trên khóa chính rồi tìm kiếm một hàng dữ liệu dựa trên một trong các giá trị khóa chính thì trước tiên SQL Server sẽ tìm giá trị đó trong chỉ mục, sau đó sử dụng chỉ mục để nhanh chóng định vị toàn bộ hàng của dữ liệu. Nếu không có chỉ mục, việc quét bảng sẽ phải được thực hiện để xác định vị trí hàng, điều này có thể ảnh hưởng đáng kể đến hiệu suất.
 ### Hash index:

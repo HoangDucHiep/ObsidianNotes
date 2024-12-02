@@ -1,3 +1,0 @@
-## Navigation
-- [[Config IP Router]]
-- 
