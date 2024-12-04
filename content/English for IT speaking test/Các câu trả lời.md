@@ -140,17 +140,8 @@
 43. What's the difference between open source software and proprietary software?
 	 - **Open-source software** is software that is released with a license that allows users to view, modify, and distribute the source code. This means anyone can contribute to its development and improve it. Examples include **Linux**, **Apache**, and **Firefox**. Open-source software is often free to use, though some may offer paid versions or support.
 	 - **Proprietary software** is software that is owned by an individual or company, and its source code is not shared with the public. Users are typically required to pay for a license to use the software, and they cannot modify or redistribute the code. Examples of proprietary software include **Microsoft Windows**, **Adobe Photoshop**, and **MacOS**.
-44. Which do you prefer, why
-	- I prefer **open-source software** for several reasons:
-		- **Customization**: Since the source code is available, I can modify the software to fit my specific needs or fix bugs.
-		- **Cost**: Open-source software is often free, which makes it an appealing choice, especially for personal or non-profit use.
-		- **Community support**: Open-source software usually has an active community that shares solutions, guides, and updates, making it easier to troubleshoot problems.
-		- **Security**: With many eyes on the code, potential vulnerabilities are often discovered and patched quickly.
-- 45. So why do you think many people like _____ better than _____? (open source software // proprierary software)
-	- Many people prefer **open-source software** over **proprietary software** for several 
-		1. **Cost-Effective**: Open-source software is often free to use, which makes it an attractive option, especially for individuals or organizations with limited budgets. In contrast, proprietary software typically requires purchasing a license.
-		2. **Customization**: Open-source software allows users to modify and customize the code to suit their needs. This flexibility is not possible with proprietary software, where users are restricted to the features provided by the developers.
-		3. **Transparency**: With open-source software, the source code is open for inspection, ensuring transparency. Users can verify the security and integrity of the software, whereas proprietary software keeps the source code hidden.
-		4. **Community Support**: Open-source software benefits from a large community of developers and users who contribute to its improvement, provide troubleshooting advice, and create extensive documentation. Proprietary software may have professional support, but it often comes at an additional cost.
-		5. **Security**: Because the source code is publicly available, open-source software tends to have quicker bug fixes and security patches, as the community can quickly identify and resolve issues. In proprietary software, users may have to wait for the vendor to release updates.
-		6. **No Vendor Lock-In**: Open-source software reduces the risk of being dependent on a single vendor for updates or support. Users are free to switch to a different software version or fork the code as needed, while proprietary software can create lock-in situations where users are dependent on the vendor for updates and support.
+44. **Which do you prefer, and why?**  
+	- I prefer open-source software for a few key reasons. First, it's highly customizable since the source code is available, so I can tweak it to fit my needs or fix issues myself. Second, it's usually free, which is a big plus, especially for personal or non-profit use. Lastly, the strong community support is great for troubleshooting and learning, and open-source software often feels more secure because so many people can check and improve the code.
+
+45. **So why do you think many people like open-source software better than proprietary software?**  
+	- A lot of people prefer open-source software because it’s free to use and gives them the freedom to customize it however they want. It’s also more transparent since anyone can inspect the code, which builds trust. Plus, the community support is fantastic for finding solutions or getting help. Open-source software also tends to be more secure since bugs are fixed faster, and it avoids vendor lock-in, giving users more control over what they use.
