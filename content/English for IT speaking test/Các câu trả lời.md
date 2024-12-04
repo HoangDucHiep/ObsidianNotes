@@ -54,7 +54,7 @@
 	- Touchpad: A **touchpad** is an input device commonly found on laptops, serving as a substitute for a mouse. It allows users to move the cursor and interact with the operating system by using gestures, such as tapping or swiping.
 	- **Stylus**: A **stylus** is a pen-like tool used for precise input on touchscreens or graphics tablets. It allows users to draw, write, or navigate with more accuracy than using fingers, often used in digital art or note-taking.
 	- **Graphics Tablet and Stylus**:  A **graphics tablet** is a flat input device that connects to a computer, used by digital artists to create drawings or illustrations. It comes with a **stylus** that provides a natural drawing experience, similar to using a pen on paper. The stylus is pressure-sensitive, allowing for variations in line thickness and shading.
-	- **Touch Screen**: A **touch screen** is an input device that detects touch, allowing users to interact directly with a display by tapping or swiping. It is commonly used in smartphones, tablets, and kiosks for its intuitive interface.
+	- **Touch Screen**: A **touch screen** is an input device that detects touch, allowing users to interact directly with a display by tapping or swiping. It is commonly used in smartphones, tablets.
 	- **Projector**:  A **projector** is an electronic device that projects images, videos, or data onto a large screen or surface. It is commonly used for presentations, movie viewing, and educational purposes, often in classrooms or conference rooms.
 	- **Headset**:  A **headset** is a pair of headphones with a built-in microphone, commonly used for communication purposes, such as in gaming, phone calls, or virtual meetings. It provides hands-free audio and is often used in noisy environments.
 	- **Multifunctional Printer**:  A **multifunctional printer** is a device that combines multiple functions, such as printing, scanning, copying, and sometimes faxing, into a single unit. It is commonly used in home offices and businesses for convenience and space-saving.
@@ -73,7 +73,7 @@
 29. When a company buys new technology, how important do you think it is to train users
 	- When a company buys new technology, **training users is essential**. Proper training ensures that employees understand how to use the technology effectively, which can improve productivity, reduce errors, and help the company get the most out of its investment. Without training, users might struggle, leading to frustration, inefficiency, and even potential security risks if the technology isn’t used correctly.
 30. What do you think are the advantages of e-learning over face-to-face learning
-	- E-learning has several advantages over face-to-face learning. It offers **flexibility**, allowing students to learn at their own pace and on their own schedule, which is helpful for those with other commitments. It also **expands access** to a variety of courses and resources globally, making high-quality education available to people regardless of their location. Additionally, e-learning can be more **cost-effective**, as it reduces the need for travel, printed materials, and classroom facilities. Finally, e-learning often provides **interactive tools** like quizzes, videos, and discussion forums that can enhance engagement and support diverse learning styles.
+	- E-learning offers **flexibility**, allowing students to learn at their own pace and schedule. It provides **global access** to courses and resources, is often more **cost-effective**, and includes **interactive tools** like quizzes and videos to enhance the learning experience
 33. Have you ever called an IT help desk centre What happened? How was the experience?
 	- Yes, I have called an IT help desk center before. I was having trouble connecting to the internet, so I reached out for support. The technician guided me through troubleshooting steps over the phone, and we eventually resolved the issue by resetting the network settings. The experience was positive overall; the support technician was patient, knowledgeable, and helped me fix the problem quickly.
 34. Can you talk about steps to solve an IT problem?
@@ -96,13 +96,13 @@
 	- ***syncing***: The process of ensuring that data across multiple devices (such as smartphones, tablets, and computers) is consistent and up-to-date.
 	- ***instant messaging***: A type of service available on the internet that allows you to quickly exchange written messages with people that you know
 	- ***social networking***: an online service that connects people who share interests, activities, backgrounds or real-life connection
-	- ***archiving***: The process of storing data, documents, or communications (such as emails) in a way that allows for easy retrieval, often for historical or legal purposes.
+	- ***archiving***: The process of storing data, documents, or communications (such as emails) in a way that allows for easy retrieval
 	- ***B2B***: Business to Business - Used to refer to business activities between companies, especially using the Internet
 	- ***B2C***: Business to Customer - Used to refer to business activities between companies and end-users, especially using the Internet
 	- ***B2G***: Business to Gorvernment - Used to refer to business activities between companies and end-users, especially using the Internet
 	- ***MCU (Multipoint Control Unit)***: A device to connect multiple videoconferencinf locations
 	- ***DRM (Digital Rights Management)***: A method to limit the use of digital content and devices after they have been sold
-	- ***NFC***: Near-Field-Communication - A short-range wireless communication technology that allows devices to exchange data by being in close proximity to each other, often used in contactless payment systems.
+	- ***NFC***: Near-Field-Communication - A short-range wireless communication technology that allows devices to exchange data by being in close to each other, often used in contactless payment systems.
 	- ***bricks and clicks store***: a business model in which a company has both offline and online presences
 	- ***bricks and motar store***: a business model in which a company has only physical presence, offer a face to face customer experience
 	- ***SSL***: **(Secure Sockets Layer)**: A protocol that ensures secure communication between a web server and a client (browser), typically used to protect sensitive information like credit card details during online transactions.
