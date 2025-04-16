@@ -1,0 +1,6 @@
+- May be not count as books :))
+	- Nisekoi
+	- Junjutsu Kaisen
+	- Solo Leveling
+	- Relife
+- 

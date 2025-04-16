@@ -1,0 +1,19 @@
+---
+title: package
+tags:
+  - Go
+---
+- A name is ***exported*** if it begins with ***capital letter***
+``` go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	fmt.Println(math.Pi)
+}
+```
+

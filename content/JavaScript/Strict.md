@@ -1,5 +1,7 @@
 ---
 title: Strict
+tags:
+  - JavaScript
 ---
 ## Rõ ràng hơn trong declaration và initilization
 ``` js

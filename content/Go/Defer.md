@@ -1,0 +1,5 @@
+---
+title: Defer
+tags:
+  - Go
+---

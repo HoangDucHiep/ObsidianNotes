@@ -1,0 +1,10 @@
+- Giới thiệu bản thân:
+	- "Chào anh/chị, em tên là Hoàng Đức HIệp, sinh năm 2004, hiện tại em đang là sinh viên năm 3 chuyên ngành Công nghệ Thông tin tại Trường Đại học Giao Thông vận tải. Trong quá trình học tập tại trường, em đã có cơ hội được tìm hiểu và thực hành về các chủ đề như các ngôn ngữ, cơ sở dữ liệu và thuật toán, phát triển Web, và em đặc biệt hứng thú với phát triển web và học về thuật toán. 
+	- Ngoài việc học trên trường, em cũng đã tham gia các khóa học online trên Coursera, Udemy về phát triển web và công nghệ mới.
+	- Mục tiêu của em trong thời gian thực tập này là được áp dụng những kiến thức đã học vào thực tiễn, tích lũy thêm kinh nghiệm làm việc và không ngừng hoàn thiện bản thân. Em mong muốn, thông qua kỳ thực tập, em sẽ được học hỏi thêm về quy trình phát triển phần mềm chuyên nghiệp, cũng như đóng góp tích cực vào các dự án của công ty.
+- Ưu điểm:
+	- Khả năng tìm kiếm thông tin
+	- Học hỏi , sẵn sàng tiếp thu những công nghệ mới, Khả năng sử dụng các tài liệu bằng tiếng Anh.
+- Nhược điểm:
+	- Hơi cầu toàn dẫn đến mất nhiều thời gina để hoàn thành công việc
+	- Mất tập trung
