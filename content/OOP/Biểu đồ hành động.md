@@ -27,14 +27,8 @@
 Biểu đồ hành động (Activity Diagram) và sơ đồ khối (Flowchart) đều là công cụ trực quan để mô tả quy trình, nhưng chúng có những điểm khác biệt rõ rệt:
 ##### **Biểu đồ hành động (Activity Diagram):**
 - **Mục đích:** Được sử dụng trong phân tích và thiết kế hệ thống hướng đối tượng (UML), tập trung vào mô tả luồng công việc hoặc các hoạt động trong hệ thống.
-- **Ký hiệu:** Bao gồm các thành phần như trạng thái, hành động, điều kiện, vòng lặp, và các swimlane để phân biệt vai trò hoặc đối tượng tham gia.
-- **Ứng dụng:** Thường dùng để mô tả quy trình nghiệp vụ, các kịch bản của ca sử dụng (use case), hoặc các thuật toán phức tạp.
-- **Đặc điểm:** Có thể mô tả các hoạt động song song và tương tác giữa các đối tượng.
 ##### **Sơ đồ khối (Flowchart):**
 - **Mục đích:** Là công cụ phổ biến để mô tả quy trình, thuật toán hoặc hệ thống một cách đơn giản, không nhất thiết phải liên quan đến lập trình hướng đối tượng.
-- **Ký hiệu:** Sử dụng các hình học cơ bản như hình chữ nhật (hành động), hình thoi (điều kiện), và mũi tên (luồng dữ liệu).
-- **Ứng dụng:** Thích hợp để minh họa các thuật toán, quy trình công việc đơn giản hoặc các bước xử lý trong lập trình.
-- **Đặc điểm:** Dễ hiểu, không yêu cầu quy tắc nghiêm ngặt về notation như biểu đồ hành động.
 ##### **Điểm khác biệt chính:**
 - Biểu đồ hành động có tính năng mô tả chi tiết hơn về các trạng thái và tương tác trong hệ thống, trong khi sơ đồ khối tập trung vào việc trình bày các bước tuần tự của quy trình.
 - Biểu đồ hành động thường được sử dụng trong thiết kế phần mềm, còn sơ đồ khối phù hợp với các lĩnh vực khác như giáo dục, quản lý, hoặc kỹ thuật.

@@ -73,7 +73,7 @@
 - Đối tượng là một instance của Lớp, có đặc trưng và trạng thái riêng biệt.
 
 #### 3. Các đối tượng giao tiếp với nhau bằng cách nào?
-- Thống  qua việc gửi và nhận thông điệp, yêu cầu thực hiện các thao tác.
+- Thống qua việc gửi và nhận thông điệp, yêu cầu thực hiện các thao tác.
 - Cơ chế này cho phép các đối tượng tương tác mà không cần biết chi tiết về cách thức hoạt động của nhau.
 #### 4. Liệt kê 4 loại liên kết giữa các lớp?
 - Association
@@ -163,16 +163,12 @@
 #### 6. Tại sao những khái niệm như Hire lại được mô hình như một lớp thay vì là một liên kết?
 - **Chứa thông tin bổ sung**:
     - Một liên kết chỉ biểu diễn mối quan hệ giữa các đối tượng, nhưng lớp **Hire** cần lưu trữ các thông tin như ngày thuê, thời gian dự kiến, phí thuê, tiền đặt cọc, trạng thái của xe, và các chi tiết khác. Những thông tin này không thể được biểu diễn trong một liên kết đơn giản.
-        
 - **Có hành vi riêng**:
     - Lớp **Hire** có thể bao gồm các phương thức để tính toán phí thuê, xử lý trả xe, hoặc ghi nhận lịch sử thuê. Những hành vi này cần được định nghĩa trong một lớp riêng biệt.
-        
 - **Quản lý mối quan hệ phức tạp**:
     - Một khách hàng có thể thuê nhiều xe, và mỗi xe có thể có thời hạn thuê khác nhau. Lớp **Hire** giúp quản lý mối quan hệ này một cách rõ ràng và có tổ chức.
-        
 - **Tăng tính mở rộng và tái sử dụng**:
     - Khi mô hình hóa **Hire** thành một lớp, hệ thống có thể dễ dàng mở rộng để thêm các tính năng mới liên quan đến việc thuê, như quản lý trạng thái thuê hoặc tích hợp với hệ thống thanh toán.
-        
 - **Đảm bảo tính kết dính (cohesion)**:
     - Nếu thông tin thuê được lưu trữ trong lớp **Customer** hoặc **Vehicle**, các lớp này sẽ trở nên cồng kềnh và mất đi tính kết dính. Việc tạo lớp **Hire** riêng biệt giúp duy trì sự rõ ràng và tổ chức trong thiết kế.
 
